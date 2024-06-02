@@ -1,0 +1,258 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and text color for the entire page */
+  body {
+  
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  .upper-body {
+    background: url("background-storm.avif");
+    /* background-size: 100%; */
+	background-position: center top;
+	background-repeat: no-repeat;
+  }
+  
+  /* Style the top section */
+.top { /* Background color for the top section */
+ 
+  /* background-color: #3498db; */
+  color: #fff; /* Text color */
+  padding: 10px; /* Add padding for spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the top-head (h1) element */
+.top-head h1 {
+  font-size: 24px;
+  margin: 0;
+}
+/*map*/
+
+/* Style the top-link (anchor) element */
+.top-link a {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  /* background-color: #ff7f00; */
+  padding: 10px 20px;
+  gap: 2px;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth hover effect transition */
+}
+
+/* Add a hover effect for the link */
+.top-link a:hover {
+  color: #E25E3E;
+}
+
+
+#map { height: 250px;
+}
+  
+  /* Style the header section */
+  /* Set the background image for the header */
+  h1 {
+    /* background-color: #3498db; */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  /* Style the container */
+  .container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255)15;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the weather input section */
+  .weather-input {
+    text-align: center;
+  }
+  
+  .city-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-btn, .location-btn {
+    /* background-color: #3498db; */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .separator {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Style the current weather section */
+  .current-weather {
+    text-align: center;
+  }
+  
+  /* Style the weather cards section */
+  .days-forecast {
+    text-align: center;
+  }
+  
+  .weather-cards {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    /* background-color: #eaea2f; */
+    /* color: #222222; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(222, 188, 53, 0.304);
+    margin: 10px;
+  }
+  
+  /* Add more specific styling as needed for different elements and states */
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    .weather-cards {
+      flex-direction: column;
+    }
+    .card {
+      margin: 10px 0;
+    }
+  }
+  
+
+  /* Updated CSS with improved image visibility and design enhancements */
+
+/* Adjust image size, centering, and margin */
+/* Style the weather icons to make them more visible */
+.icon img {
+  width: 60px; /* Adjust the size as needed */
+  margin: 0 auto;
+  color: #3498db;
+  filter: brightness(150%); /* Increase image brightness for better visibility */
+}
+
+
+/* Enhance the overall design */
+body {
+  /* background: linear-gradient(to bottom, #3498db, #272ab9); */
+  color: #fff;
+  font-family: "Helvetica Neue", sans-serif; /* Choose an elegant font */
+}
+/* aim moto  */
+.container-mid {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #FFF2D8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.mid-header{
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 2%;
+  color: #333;
+}
+.mid-para {
+  margin: 5px;
+  color: #666;
+}
+.about-section {
+  text-align: center;
+  padding: 20px;
+}
+.aim-motto-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.aim {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.motto {
+  color: #8E8FFA;
+}
+
+/* Improved button style */
+.search-btn, .location-btn {
+  background-color: DE8F5F; 
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s; /* Add a smooth transition on hover */
+}
+
+/* .search-btn, .location-btn:hover {
+  background-color: #ff7f00;
+} */
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+  .weather-cards {
+      flex-direction: column;
+  }
+  .card {
+      margin: 10px 0;
+  }
+}
+/* map */
+.map {
+	position: absolute;
+    left: 0;
+}
+/* footer */
+/* Footer styling */
+.footer {
+  /* background-color: #333; */
+  background-color: #222;
+  color: white; /* Text color for the footer */
+  text-align: center;
+  padding: 10px 0; /* Add padding for spacing */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Adjust the font size */
+}
+
+/* Add a hover effect to the footer */
+.footer:hover {
+  background-color: #333;
+  
+}
+
